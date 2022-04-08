@@ -1,0 +1,64 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+HTML {
+  font-size: 62.5%;
+}
+.Pages {
+  width: 100%;
+  height: 230rem;
+  /* height: auto; */
+  background-color: #efefef;
+}
+.Pages-Main-heading {
+  width: 100%;
+  background-color: white;
+  height: 8rem;
+  margin-bottom: 2rem;
+}
+.Pages-Main-heading h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.Pages-sub {
+  width: 100%;
+  height: 200rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.sub-section {
+  height: 40rem;
+  /* width: 40rem; */
+  width: 30%;
+  box-shadow: 9px 74px 32px 0px rgb(145 135 135 / 79%);
+  cursor: pointer;
+  transition: 0.9s;
+}
+.sub-section img {
+  height: 100%;
+  width: 100%;
+}
+.sub-heading {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: 0.9s;
+}
+.sub-section h2 {
+  font-size: 3rem;
+}
+.sub-section:hover {
+  transform: translateY(2rem);
+}
+.sub-section:hover > .sub-heading {
+  color: white;
+  background-color: #fc3b50;
+}

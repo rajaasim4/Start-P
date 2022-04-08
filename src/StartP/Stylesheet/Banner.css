@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,300&display=swap");
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+HTML {
+  font-size: 62.5%;
+}
+.Banner {
+  height: 40rem;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Banner p {
+  font-size: 2rem;
+}
+.Banner h1 {
+  font-size: 6rem;
+  text-align: justify;
+  font-weight: 300;
+  color: #212529;
+  font-family: "Jost", sans-serif;
+}

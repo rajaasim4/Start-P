@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.icondiv {
+  background-color: blue;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+
+.maps {
+  background-color: blue;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+
+.tablelist {
+  background-color: blue;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+
+/* .dashboard {
+  width: 75%;
+  height: 100vh;
+  float: right;
+} */
+
+.rtl {
+  background-color: blue;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+.typograph {
+  background-color: blue;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+.user {
+  background-color: #e5e7e7;
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
+.notification {
+  background-color: blue;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+.footer {
+  width: 75%;
+  height: 3rem;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e5e7e7;
+}
+.footer-left {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+.footer-left ul {
+  display: grid;
+  grid-template-columns: repeat(4, 77px);
+  place-items: center;
+}
+.footer-left ul li {
+  list-style: none;
+}
+.footer-left ul li a {
+  text-decoration: none;
+  color: #3c4858;
+  font-weight: 500;
+}
+
+.footer-left ul li a:hover {
+  color: #9c27b0;
+}
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3c4858;
+}
